@@ -1,0 +1,32 @@
+{
+  "name": "gifs-master",
+  "version": "1.0.0",
+  "description": "A simple website with a few buttons on load. Type in the box to add your own GIFS.  Then click on the pictures below to see them in action",
+  "main": "api/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "bootstrap": "^5.3.3",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jquery": "^3.7.1",
+    "mini-css-extract-plugin": "^2.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

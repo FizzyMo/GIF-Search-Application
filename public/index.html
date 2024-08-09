@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gif Memes</title>
+    
+    <!-- Google Fonts (Defer Loading) -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" media="print" onload="this.media='all'" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <h1 aria-label="Hall of Memes, GIF search application">Hall of Memes</h1>
+
+      <!-- Container for buttons -->
+      <div class="row">
+        <div class="col-md-12 text-center" id="rando-buttons" role="region" aria-label="Search Buttons for popular GIF categories"></div>
+      </div>
+
+      <!-- Form for user input -->
+      <form id="rando-form" class="text-center">
+        <label id="add" for="rando-input">
+          Type a word to see it come Alive
+        </label>
+        <div class="input-group center-input">
+          <input type="text" class="form-control" id="rando-input" placeholder="Enter keyword" aria-label="Enter a keyword to search for GIFs" />
+          <span class="input-group-btn">
+            <button
+              onclick="submitButtonClicked()"
+              type="button"
+              id="add-random"
+              class="btn btn-success submit-button"
+              aria-label="Submit keyword to display related GIFs"
+            >
+              Submit
+            </button>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Container for displaying GIFs -->
+      <div class="container">
+        <div id="random" class="row" aria-label="GIF display area">
+
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>

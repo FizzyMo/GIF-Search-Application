@@ -1,0 +1,23 @@
+# Node.js modules
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+*.log
+logs/
+
+# Build output
+dist/
+build/
+
+# Dependency directories
+package-lock.json
+npm-debug.log*
+
+# IDE or editor-specific files
+.vscode/
+
+# Miscellaneous
+*.cache
