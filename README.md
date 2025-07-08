@@ -1,6 +1,6 @@
 > [!NOTE]
 > This README is currently being updated. Some sections may be incomplete or undergoing revisions. Thank you for your patience!
-
+![Header](https://github.com/user-attachments/assets/a039ce3a-a652-4d0a-be3e-b0ee4b55c83c)
 <h1 align="center"> GIF Search Application</h1>
 
 GIFs Master is a simple web application that allows users to search for and view GIFs. The application is designed with a focus on enhancing the user experience on mobile devices by optimizing touch interactions, responsiveness, performance, and accessibility.
